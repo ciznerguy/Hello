@@ -1,48 +1,32 @@
-# Prerequisites
+# Existing - Build and binary files
 *.d
-
-# Object files
 *.o
 *.ko
 *.obj
 *.elf
-
-# Linker output
 *.ilk
 *.map
 *.exp
-
-# Precompiled Headers
 *.gch
 *.pch
-
-# Libraries
 *.lib
 *.a
 *.la
 *.lo
-
-# Shared objects (inc. Windows DLLs)
 *.dll
 *.so
 *.so.*
 *.dylib
-
-# Executables
 *.exe
 *.out
 *.app
 *.i*86
 *.x86_64
 *.hex
-
-# Debug files
 *.dSYM/
 *.su
 *.idb
 *.pdb
-
-# Kernel Module Compile Results
 *.mod*
 *.cmd
 .tmp_versions/
@@ -50,6 +34,37 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-
-# debug information files
 *.dwo
+
+# .NET and C# related
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.vs/
+Generated\ Files/
+TestResults/
+*.ncrunch*
+*.coverage
+*.launch.json
+*.dotCover
+*.resharper
+*.ide/
+*.dbmdl
+*.cache/
+*.log
+*.tlog
+*.svclog
+*.pidb
+project.lock.json
+project.fragment.lock.json
+artifacts/
+_ReSharper*/
+*.psess
+*.vsp
+*.vspx
+*.sln.ide
